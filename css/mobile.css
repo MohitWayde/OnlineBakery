@@ -1,0 +1,120 @@
+@media screen and (max-width:1024px)
+{
+    /* navigation bar started */
+    #navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    /* navigation bar ended */
+
+    /* home section started */
+    #home{
+        padding: 5px 5px;
+    }
+
+    #home::before {
+
+        height: 560px;
+    }
+    /* home section ended */
+}
+    /* our products section started */
+    #ourproducts{
+        flex-wrap: wrap;
+    }
+    /* our products section ended */
+
+    /* our services section started */
+    
+    /* our services section ended */
+
+    /* Testimonials section started */
+    #testimonials{
+    display: block;
+    align-items: center;
+    width: 350px;
+    margin: auto;
+    }
+    /* Testimonials section ended */
+
+    /* About us section started */
+    #aboutus{
+        flex-wrap: wrap;
+    }
+    /* About us section ended */
+
+    /* Contact us section started */
+
+    /* Contact us section ended */
+
+
+
+
+@media screen and (max-width:392px)
+{
+    
+/* navigation bar started */
+#nav-items{
+    align-items: center;
+}
+ /* navigation bar ended */
+
+ /* home section started */
+ #home h1{
+     font-size: 25px ;
+ }
+ #home p{
+     font-size: 18px ;
+ }
+#home::before{
+    height: 585px;
+}
+ /* home section ended */
+
+ /* our products section started */
+
+ /* our products section ended */
+
+ /* our services section started */
+ 
+ /* our services section ended */
+
+ /* Testimonials section started */
+ #testimonials{
+    display: block;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+ }
+ /* Testimonials section ended */
+
+ /* About us section started */
+
+ /* About us section ended */
+
+ /* Contact us section started */
+#contactus input
+{
+    width: 250px;
+}
+ /* Contact us section ended */
+}
+
+
+@media screen and (max-width:720px)
+{
+    #creamcake{
+        flex-direction: column;
+    }
+    #cupcake{
+        flex-direction: column;
+    }
+    #icecake{
+        flex-direction: column;
+    }
+    #pastry{
+        flex-direction: column;
+    }
+}

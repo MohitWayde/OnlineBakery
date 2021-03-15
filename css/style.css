@@ -246,14 +246,14 @@
 }
 
 .h-primary{
-    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Baloo Bhai 2', Arial, Helvetica, sans-serif;
     font-size: 30px;margin: 30px;
 }
 .bighead{
     font-size: 40px;
 }
 .para{
-    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Baloo Bhai 2',Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 .btns{
@@ -265,7 +265,7 @@
     padding: 5px;
     cursor: pointer;
 }
-.btn:hover{
+.btns:hover{
     background-color: black;
     color: white;
 }
